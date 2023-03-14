@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 1
+        readTimeout: 1
